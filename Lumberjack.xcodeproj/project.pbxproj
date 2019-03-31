@@ -419,7 +419,7 @@
 					};
 					19FF460E1B8B4D1400B43179 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -528,6 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack;
 				PRODUCT_NAME = CocoaLumberjack;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/include";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -538,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack;
 				PRODUCT_NAME = CocoaLumberjack;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/include";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -549,6 +551,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Framework/Lumberjack/CocoaLumberjack-Prefix.pch";
 				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjack-Info.plist";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -560,6 +563,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Framework/Lumberjack/CocoaLumberjack-Prefix.pch";
 				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjack-Info.plist";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -570,6 +574,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjackSwift-Info.plist";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -580,6 +585,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjackSwift-Info.plist";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
